@@ -81,8 +81,8 @@ Toulmin model implementation for legal task decomposition:
 | Summarization          | Liu et al.    | [Low-resource court judgment summarization for common law systems](https://www.sciencedirect.com/science/article/pii/S0306457324001511)                                  |Information Processing & Management       |2024      |N/A      |
 | Summarization          | Nguyen et al. | [Robust deep reinforcement learning for extractive legal summarization](https://link.springer.com/chapter/10.1007/978-3-030-92310-5_69)                             |ICONIP       |2021      |N/A      |
 | Summarization          | Pont et al.   | [Legal Summarisation through LLMs: The PRODIGIT Project](https://arxiv.org/pdf/2308.04416)                                            |arxiv       |2023      |N/A      |
-| Summarization Evaluation | Elaraby et al. | Adding Argumentation into Human Evaluation of Long Document Abstractive Summarization: A Case Study on Legal Opinions |       |      |      |
-| Summarization          | Mao et al.    | Comparative Analysis of LLM-Generated Event Timeline Summarization for Legal Investigations      |       |      |      |
+| Summarization Evaluation | Elaraby et al. | [Adding Argumentation into Human Evaluation of Long Document Abstractive Summarization: A Case Study on Legal Opinions](https://aclanthology.org/2024.humeval-1.3/) |HumEval       |2024      |N/A      |
+| Summarization          | Mao et al.    | [Comparative Analysis of LLM-Generated Event Timeline Summarization for Legal Investigations](https://ieeexplore.ieee.org/abstract/document/10826063/)      |IEEE BigData       |2024      |N/A      |
 | Text Processing        | Nguyen et al. | Transformer-based approaches for legal text processing                                            |       |      |      |
 | Classification         | Chen et al.   | A comparative study of automated legal text classification using random forests and deep learning |       |      |      |
 | Classification         | Liga et al.   | Fine-tuning GPT-3 for legal rule classification                                                   |       |      |      |
