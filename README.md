@@ -68,7 +68,7 @@ Toulmin model implementation for legal task decomposition:
 
 | **Category** |      Name                   | **Paper**                                                    | **Venue** | **Year** | **Code**                                               |
 | -------- | --------------------- | ------------------------------------------------------------ | --------- | -------- | ------------------------------------------------------------ |
-| Word Embedding         | Devlin et al. | BERT: Pre-training of deep bidirectional transformers for language understanding(https://aclanthology.org/N19-1423.pdf)                 | NAACL      |2019      | https://github.com/google-research/bert     |
+| Word Embedding         | Devlin et al. | BERT: Pre-training of deep bidirectional transformers for language understanding(#https://aclanthology.org/N19-1423.pdf)                 | NAACL      |2019      | https://github.com/google-research/bert     |
 | Word Embedding         | Mikolov       | Efficient estimation of word representations in vector space                                      |       |      |      |
 | Word Embedding         | Pennington et al. | Glove: Global vectors for word representation                                                     |       |      |      |
 | Sentence Embedding     | Hill et al.   | Learning to understand phrases by embedding the dictionary                                        |       |      |      |
