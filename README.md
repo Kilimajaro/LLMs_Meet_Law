@@ -64,28 +64,114 @@ Toulmin model implementation for legal task decomposition:
 
 ![alt text](image-2.png)
 
-Component-Specific Advancements:​​
+### 3.2: LLM-assisted Legal Data Processing
 
-### ​​Data Processing
+| **Category** |      Name                   | **Paper**                                                    | **Venue** | **Year** | **Code**                                               |
+| -------- | --------------------- | ------------------------------------------------------------ | --------- | -------- | ------------------------------------------------------------ |
+| Word Embedding         | Devlin et al. | BERT: Pre-training of deep bidirectional transformers for language understanding                 |       |      |      |
+| Word Embedding         | Mikolov       | Efficient estimation of word representations in vector space                                      |       |      |      |
+| Word Embedding         | Pennington et al. | Glove: Global vectors for word representation                                                     |       |      |      |
+| Sentence Embedding     | Hill et al.   | Learning to understand phrases by embedding the dictionary                                        |       |      |      |
+| Sentence Embedding     | Kiros et al.  | Skip-thought vectors                                                                              |       |      |      |
+| Coherence Modeling     | Logeswaran et al. | Sentence ordering and coherence modeling using recurrent neural networks                          |       |      |      |
+| Summarization          | Benedetto et al. | Leveraging large language models for abstractive summarization of Italian legal news              |       |      |      |
+| Summarization          | Deroy et al.  | Applicability of large language models and generative models for legal case judgement summarization |       |      |      |
+| Summarization          | Jain et al.   | Summarization of Lengthy Legal Documents via Abstractive Dataset Building: An Extract-then-Assign Approach |       |      |      |
+| Summarization          | Liu et al.    | Low-resource court judgment summarization for common law systems                                  |       |      |      |
+| Summarization          | Nguyen et al. | Robust deep reinforcement learning for extractive legal summarization                             |       |      |      |
+| Summarization          | Pont et al.   | Legal Summarisation through LLMs: The PRODIGIT Project                                            |       |      |      |
+| Summarization Evaluation | Elaraby et al. | Adding Argumentation into Human Evaluation of Long Document Abstractive Summarization: A Case Study on Legal Opinions |       |      |      |
+| Summarization          | Mao et al.    | Comparative Analysis of LLM-Generated Event Timeline Summarization for Legal Investigations      |       |      |      |
+| Text Processing        | Nguyen et al. | Transformer-based approaches for legal text processing                                            |       |      |      |
+| Classification         | Chen et al.   | A comparative study of automated legal text classification using random forests and deep learning |       |      |      |
+| Classification         | Liga et al.   | Fine-tuning GPT-3 for legal rule classification                                                   |       |      |      |
+| Classification         | Prasad et al. | Exploring Large Language Models and Hierarchical Frameworks for Classification of Large Unstructured Legal Documents |       |      |      |
+| Argumentation Mining   | Palau et al.  | Argumentation mining: the detection, classification and structure of arguments in text            |       |      |      |
+| Textual Entailment     | Bilgin et al. | Exploring Prompting Approaches in Legal Textual Entailment                                        |       |      |      |
+| Textual Entailment     | Nguyen et al. | Employing label models on ChatGPT answers improves legal text entailment performance               |       |      |      |
+| Textual Entailment     | Reji et al.   | Enhancing LLM Performance on Legal Textual Entailment with Few-Shot CoT-based RAG                 |       |      |      |
+| Classification         | Santosh et al. | Zero-shot transfer of article-aware legal outcome classification for european court of human rights cases |       |      |      |
+| Prediction             | Liu et al.    | Augmenting legal judgment prediction with contrastive case relations                              |       |      |      |
+| Element Recognition    | Hua et al.    | Mixture of Expert Large Language Model for Legal Case Element Recognition                         |       |      |      |
+| NER                    | Smadu et al.  | Legal named entity recognition with multi-task domain adaptation                                   |       |      |      |
 
-Summarization: ETA abstractive methods
-Classification: Hierarchical transformer frameworks
-Element ID: RAG-enhanced extraction
+### 3.3: LLM-assisted Legal Backing Digiting
 
-### ​​​​Backing Digiting
+| **Category** |      Name                   | **Paper**                                                    | **Venue** | **Year** | **Code**                                               |
+| -------- | --------------------- | ------------------------------------------------------------ | --------- | -------- | ------------------------------------------------------------ |
+| Retrieval                 | Tran et al.   | Building legal case retrieval systems with lexical matching and summarization using a pre-trained phrase scoring model |       |      |      |
+| Retrieval                 | Shao et al.   | BERT-PLI: Modeling paragraph-level interactions for legal case retrieval                         |       |      |      |
+| Entailment                | Rabelo et al. | Combining similarity and transformer methods for case law entailment                              |       |      |      |
+| Retrieval                 | Shao et al.   | BERT-based ensemble model for statute law retrieval and legal information entailment              |       |      |      |
+| Pre-training              | Su et al.     | Caseformer:Pre-training for legal case retrieval                                                  |       |      |      |
+| Retrieval                 | Kim et al.    | Legal information retrieval and entailment based on bm25, transformer and semantic thesaurus methods |       |      |      |
+| Retrieval                 | Nguyen et al. | Attentive deep neural networks for legal document retrieval                                       |       |      |      |
+| Retrieval                 | Yoshioka et al. | Hukb at the coliee 2022 statute law task                                                          |       |      |      |
+| Entailment                | Wehnert et al. | Applying BERT embeddings to predict legal textual entailment                                      |       |      |      |
+| Information Extraction    | Hudek et al.  | Information extraction/entailment of common law and civil code                                   |       |      |      |
+| Pre-training Evaluation  | Zheng et al.  | When does pretraining help? assessing self-supervised learning for law and the casehold dataset    |       |      |      |
+| Retrieval Framework       | Nguyen et al. | Retrieve-Revise-Refine: A novel framework for retrieval of concise entailing legal article set   |       |      |      |
+| Retrieval                 | Nguyen et al. | Pushing the boundaries of legal information processing with integration of large language models   |       |      |      |
+| Correspondence Modeling   | Ge et al.     | Learning fine-grained fact-article correspondence in legal cases                                  |       |      |      |
+| Relevance Comprehension  | Li et al.     | Towards an In-Depth Comprehension of Case Relevance for Better Legal Retrieval                  |       |      |      |
+| Health Information Retrieval | Milanese et al. | Fact-Driven Health Information Retrieval: Integrating LLMs and Knowledge Graphs to Combat Misinformation |       |      |      |
+| Bias Analysis             | Cuconasu et al. | Do RAG Systems Suffer From Positional Bias?                                                       |       |      |      |
+| Uncertainty Calibration   | Shi et al.    | Ambiguity detection and uncertainty calibration for question answering with large language models |       |      |      |
+| Relevance Judgment       | Shao et al.   | Understanding relevance judgments in legal case retrieval                                         |       |      |      |
+| Graph-based Retrieval     | Tang et al.   | CaseGNN: Graph Neural Networks for Legal Case Retrieval with Text-Attributed Graphs                |       |      |      |
+| Provision Selection       | Wang et al.   | Causality-inspired legal provision selection with large language model-based explanation           |       |      |      |
+| Data Augmentation         | Bui et al.    | Data Augmentation and Large Language Model for Legal Case Retrieval and Entailment                |       |      |      |
+| Legal Information Processing | Nguyen et al. | NOWJ@ COLIEE 2024: leveraging advanced deep learning techniques for efficient and effective legal information processing |       |      |      |
+| Ensemble Approaches       | Vuong et al.  | NOWJ at COLIEE 2023: Multi-task and Ensemble Approaches in Legal Information Processing           |       |      |      |
+| Person Name Analysis      | Onaga et al.  | Contribution Analysis of Large Language Models and Data Augmentations for Person Names in Solving Legal Bar Examination at COLIEE 2023 |       |      |      |
+| CoT Tuning                | Fujita et al. | LLM Tuning and Interpretable CoT: KIS Team in COLIEE 2024                                        |       |      |      |
 
-Case law retrieval: BERT-PLI ensemble models
-Statute entailment: Three-stage refinement frameworks
+### 3.4: LLM-assisted Legal Warrant Reasoning Generation
 
-### ​​Warrant Reasoning
+| **Category** |      Name                   | **Paper**                                                    | **Venue** | **Year** | **Code**                                               |
+| -------- | --------------------- | ------------------------------------------------------------ | --------- | -------- | ------------------------------------------------------------ |
+| Long-text Processor       | Xiao et al.   | Lawformer: A pre-trained language model for chinese legal long documents                          |       |      |      |
+| Legal QA System           | Huang et al.  | Lawyer llama technical report                                                                     |       |      |      |
+| Reasoning Framework       | Yue et al.    | Disc-lawllm: Fine-tuning large language models for intelligent legal services                     |       |      |      |
+| Benchmark                 | Fei et al.    | Lawbench: Benchmarking legal knowledge of large language models                                    |       |      |      |
+| Benchmark                 | Guha et al.   | Legalbench: A collaboratively built benchmark for measuring legal reasoning in large language models |       |      |      |
+| MoE Architecture          | Cui et al.    | Chatlaw: A multi-agent collaborative legal assistant with knowledge graph enhanced mixture-of-experts large language model |       |      |      |
+| Precedent Retrieval       | Wiratunga et al. | CBR-RAG: case-based reasoning for retrieval augmented generation in LLMs for legal question answering |       |      |      |
+| Domain-specific LLM       | Fei et al.    | Internlm-law: An open source chinese legal large language model                                   |       |      |      |
+| Text Analytics            | Ghosh et al.  | Human Centered AI for Indian Legal Text Analytics                                                |       |      |      |
+| Hallucination Analysis    | Dahl et al.   | Large legal fictions: Profiling legal hallucinations in large language models                      |       |      |      |
+| Factor Annotation         | Gray et al.   | Empirical legal analysis simplified: reducing complexity through automatic identification and evaluation of legally relevant factors |       |      |      |
+| Legal Support             | Maree et al.  | Transforming legal text interactions: leveraging natural language processing and large language models for legal support in Palestinian cooperatives |       |      |      |
+| Reasoning                | Deng et al.   | Syllogistic reasoning for legal judgment analysis                                                 |       |      |      |
 
-Long-text: Sparse attention mechanisms
-Low-resource: Few-shot tuning approaches
+### 3.5: LLM-assisted Legal Judgment Prediction with Qualifiers
 
-### ​​Judgment Prediction
-
-Qualified outcomes: Fact-charge decoupling (ADAPT)
-Multimodal: GNN-LLM fusion (LLG-Judger)
+| **Category** |      Name                   | **Paper**                                                    | **Venue** | **Year** | **Code**                                               |
+| -------- | --------------------- | ------------------------------------------------------------ | --------- | -------- | ------------------------------------------------------------ |
+| Prediction                | Strickson et al. | Legal judgement prediction for UK courts                                                          |       |      |      |
+| Representation Learning  | Ma et al.     | Judgment Prediction Based on Case Life Cycle                                                     |       |      |      |
+| Representation Learning  | Ma et al.     | Legal judgment prediction with multi-stage case representation learning in the real court setting |       |      |      |
+| Judgement Prediction      | Prasad et al. | IRIT_IRIS_C at SemEval-2023 Task 6: A Multi-level Encoder-based Architecture for Judgement Prediction of Legal Cases and their Explanation |       |      |      |
+| Element Extraction        | Lyu et al.    | Improving legal judgment prediction through reinforced criminal element extraction                |       |      |      |
+| Dependency Learning       | Huang et al.  | Dependency learning for legal judgment prediction with a unified text-to-text transformer          |       |      |      |
+| Multi-task Prediction     | Xu et al.     | Multi-task legal judgement prediction combining a subtask of the seriousness of charges          |       |      |      |
+| Event Extraction          | Feng et al.   | Legal judgment prediction via event extraction with constraints                                  |       |      |      |
+| Contrastive Learning      | Liu et al.    | Augmenting legal judgment prediction with contrastive case relations                             |       |      |      |
+| Contrastive Learning      | Zhang et al.  | Contrastive learning for legal judgment prediction                                                |       |      |      |
+| Knowledge Injection       | Gan et al.    | Judgment prediction via injecting legal knowledge into neural networks                            |       |      |      |
+| Benchmark                 | Chalkidis et al. | LexGLUE: A benchmark dataset for legal language understanding in English                          |       |      |      |
+| Benchmark                 | Niklaus et al. | Swiss-judgment-prediction: A multilingual legal judgment prediction benchmark                     |       |      |      |
+| Benchmark                 | Hwang et al.  | A multi-task benchmark for korean legal language understanding and judgement prediction           |       |      |      |
+| Statute Prediction        | Vats et al.   | Llms-the good, the bad or the indispensable?: A use case on legal statute prediction and legal judgment prediction on indian court cases |       |      |      |
+| Evaluation                | Shui et al.   | A comprehensive evaluation of large language models on legal judgment prediction                 |       |      |      |
+| Realistic Prediction      | Nigam et al.  | Rethinking legal judgement prediction in a realistic scenario in the era of large language models |       |      |      |
+| Reasoning                | Deng et al.   | Enabling discriminative reasoning in llms for legal judgment prediction                           |       |      |      |
+| Graph Learning            | Yangbin et al. | Legal Judgment Prediction with LLM and Graph Contrastive Learning Networks                         |       |      |      |
+| Rule-enhanced Prediction  | Zhang et al.  | RLJP: Legal Judgment Prediction via First-Order Logic Rule-enhanced with Large Language Models    |       |      |      |
+| Neuro-symbolic Framework  | Wei et al.    | An LLMs-based neuro-symbolic legal judgment prediction framework for civil cases                 |       |      |      |
+| Framework                 | Wang et al.   | LegalReasoner: A Multi-Stage Framework for Legal Judgment Prediction via Large Language Models and Knowledge Integration |       |      |      |
+| Survey                    | Cui et al.    | A survey on legal judgment prediction: Datasets, metrics, models and challenges                   |       |      |      |
+| Survey                    | Medvedeva et al. | Rethinking the field of automatic prediction of court decisions                                  |       |      |      |
 
 ## LLMs’ Integrations in Dispute Resolution Procedures
 
@@ -120,6 +206,14 @@ Competence obligations: Continuous learning imperatives
 ## Roadmap and Future Directions
 
 ![alt text](image-3.png)
+
+| Category                  | Name          | Paper                                                                                              | Venue | Year | Code |
+|---------------------------|---------------|---------------------------------------------------------------------------------------------------|-------|------|------|
+| Legal LLM                 | Cui et al.    | Chatlaw: Open-source legal large language model with integrated external knowledge bases         |       |      |      |
+| Multi-agent Framework     | Shi et al.    | LegalGPT: Legal Chain of Thought for the Legal Large Language Model Multi-agent Framework          |       |      |      |
+| Benchmark                 | Fei et al.    | Lawbench: Benchmarking legal knowledge of large language models                                    |       |      |      |
+| Benchmark                 | Guha et al.   | Legalbench: A collaboratively built benchmark for measuring legal reasoning in large language models |       |      |      |
+| Reasoning Enhancement    | Lu et al.     | 0x. yuan at semeval-2024 task 5: Enhancing legal argument reasoning with structured prompts        |       |      |      |
 
 Critical research frontiers:
 
