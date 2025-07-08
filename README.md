@@ -51,12 +51,12 @@ From symbolic systems to transformer-based LLMs in legal NLP:
 
 Evolutionary Stages:​​
 
-​​Period​​  Key Developments​​  Representative Systems​​
-Foundations (2017)  Legal embeddings  Law2Vec
-Transition (2018-19)  Pretraining paradigms  Legal-BERT
-Expansion (2020-21)  Transformer specialization  COLIEE competition frameworks
-Breakthrough (2022)  Holistic LLM applications  Lawformer, ChatLaw
-Paradigm shift (2023-24)  Lawformer, ChatLaw
+|​​Period​​  |Key |Developments​​  |Representative |Systems|​​
+|Foundations (2017)  |Legal |embeddings  |Law2Vec|
+|Transition (2018-19)  |Pretraining |paradigms  |Legal-BERT|
+|Expansion (2020-21)  |Transformer |specialization  |COLIEE competition frameworks|
+|Breakthrough (2022)  |Holistic |LLM applications | Lawformer|
+|Paradigm shift (2023-24)  |Lawformer| ChatLaw|
 
 ## LLM-enhanced Legal Reasoning
 
