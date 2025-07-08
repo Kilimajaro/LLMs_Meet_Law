@@ -65,7 +65,7 @@ Toulmin model implementation for legal task decomposition:
 
 ![alt text](image-2.png)
 
-### 3.2: LLM-assisted Legal Data Processing
+### LLM-assisted Legal Data Processing
 
 | **Category** |      Name                   | **Paper**                                                    | **Venue** | **Year** | **Code**                                               |
 | -------- | --------------------- | ------------------------------------------------------------ | --------- | -------- | ------------------------------------------------------------ |
@@ -96,7 +96,7 @@ Toulmin model implementation for legal task decomposition:
 | Element Recognition    | Yin et al.    | [Mixture of Expert Large Language Model for Legal Case Element Recognition](https://openurl.ebsco.com/EPDB%3Agcd%3A8%3A17264808/detailv2?sid=ebsco%3Aplink%3Ascholar&id=ebsco%3Agcd%3A181743852&crl=c&link_origin=scholar.google.com)                         |ournal of Frontiers of Computer Science & Technology       |2024      |N/A      |
 | NER                    | Smadu et al.  | [Legal named entity recognition with multi-task domain adaptation](https://aclanthology.org/2022.nllp-1.29/)                                   |Natural Legal Language Processing Workshop       |2022      |https://github.com/elenanereiss/Legal-Entity-Recognition      |
 
-### 3.3: LLM-assisted Legal Backing Digiting
+### LLM-assisted Legal Backing Digiting
 
 | **Category** |      Name                   | **Paper**                                                    | **Venue** | **Year** | **Code**                                               |
 | -------- | --------------------- | ------------------------------------------------------------ | --------- | -------- | ------------------------------------------------------------ |
@@ -127,52 +127,52 @@ Toulmin model implementation for legal task decomposition:
 | Legal Entity Analysis      | Onaga et al.  | [Contribution Analysis of Large Language Models and Data Augmentations for Person Names in Solving Legal Bar Examination at COLIEE 2023](https://link.springer.com/article/10.1007/s12626-024-00155-5) |The Review of Socionetwork Strategies       |2024      |N/A      |
 | CoT Tuning                | Fujita et al. | [LLM Tuning and Interpretable CoT: KIS Team in COLIEE 2024](https://link.springer.com/chapter/10.1007/978-981-97-3076-6_10)                                        |JSAI       |2024      |N/A      |
 
-### 3.4: LLM-assisted Legal Warrant Reasoning Generation
+### LLM-assisted Legal Warrant Reasoning Generation
 
 | **Category** |      Name                   | **Paper**                                                    | **Venue** | **Year** | **Code**                                               |
 | -------- | --------------------- | ------------------------------------------------------------ | --------- | -------- | ------------------------------------------------------------ |
-| Long-text Processor       | Xiao et al.   | Lawformer: A pre-trained language model for chinese legal long documents                          |       |      |      |
-| Legal QA System           | Huang et al.  | Lawyer llama technical report                                                                     |       |      |      |
-| Reasoning Framework       | Yue et al.    | Disc-lawllm: Fine-tuning large language models for intelligent legal services                     |       |      |      |
-| Benchmark                 | Fei et al.    | Lawbench: Benchmarking legal knowledge of large language models                                    |       |      |      |
-| Benchmark                 | Guha et al.   | Legalbench: A collaboratively built benchmark for measuring legal reasoning in large language models |       |      |      |
-| MoE Architecture          | Cui et al.    | Chatlaw: A multi-agent collaborative legal assistant with knowledge graph enhanced mixture-of-experts large language model |       |      |      |
-| Precedent Retrieval       | Wiratunga et al. | CBR-RAG: case-based reasoning for retrieval augmented generation in LLMs for legal question answering |       |      |      |
-| Domain-specific LLM       | Fei et al.    | Internlm-law: An open source chinese legal large language model                                   |       |      |      |
-| Text Analytics            | Ghosh et al.  | Human Centered AI for Indian Legal Text Analytics                                                |       |      |      |
-| Hallucination Analysis    | Dahl et al.   | Large legal fictions: Profiling legal hallucinations in large language models                      |       |      |      |
-| Factor Annotation         | Gray et al.   | Empirical legal analysis simplified: reducing complexity through automatic identification and evaluation of legally relevant factors |       |      |      |
-| Legal Support             | Maree et al.  | Transforming legal text interactions: leveraging natural language processing and large language models for legal support in Palestinian cooperatives |       |      |      |
-| Reasoning                | Deng et al.   | Syllogistic reasoning for legal judgment analysis                                                 |       |      |      |
+| Long-text Processor       | Xiao et al.   | [Lawformer: A pre-trained language model for chinese legal long documents](https://www.sciencedirect.com/science/article/pii/S2666651021000176)                          |AI Open       |2021      |https://github.com/thunlp/LegalPLMs      |
+| Legal QA System           | Huang et al.  | [Lawyer llama technical report](https://arxiv.org/pdf/2305.15062)                                                                     |arxiv       |2023      |https://github.com/AndrewZhe/lawyer-llama      |
+| Reasoning Framework       | Yue et al.    | [Disc-lawllm: Fine-tuning large language models for intelligent legal services](https://arxiv.org/pdf/2309.11325)                     |arxiv       |2023      |https://github.com/FudanDISC/DISC-LawLLM      |
+| Benchmark                 | Fei et al.    | [Lawbench: Benchmarking legal knowledge of large language models](https://arxiv.org/pdf/2309.16289)                                    |arxiv       |2023      |https://github.com/open-compass/LawBench/      |
+| Benchmark                 | Guha et al.   | Legalbench: A collaboratively built benchmark for measuring legal reasoning in large language models |Advances in Neural Information Processing Systems       |2023      |https://github.com/HazyResearch/legalbench      |
+| MoE Architecture          | Cui et al.    | [Chatlaw: A multi-agent collaborative legal assistant with knowledge graph enhanced mixture-of-experts large language model](https://arxiv.org/pdf/2306.16092) |arxiv       |2024      |https://github.com/PKU-YuanGroup/ChatLaw      |
+| Precedent Retrieval       | Wiratunga et al. | [CBR-RAG: case-based reasoning for retrieval augmented generation in LLMs for legal question answering](https://link.springer.com/chapter/10.1007/978-3-031-63646-2_29) |International Conference on Case-Based Reasoning       |2024      |https://github.com/rgu-iit-bt/cbr-for-legal-rag      |
+| Domain-specific LLM       | Fei et al.    | [Internlm-law: An open source chinese legal large language model](https://arxiv.org/pdf/2406.14887)                                   |arxiv       |2024      |https://github.com/InternLM/InternLM-Law      |
+| Text Analytics            | Ghosh et al.  | [Human Centered AI for Indian Legal Text Analytics](https://arxiv.org/pdf/2403.10944)                                                |arxiv       |2024      |N/A      |
+| Hallucination Analysis    | Dahl et al.   | [Large legal fictions: Profiling legal hallucinations in large language models](https://academic.oup.com/jla/article/16/1/64/7699227)                      |Journal of Legal Analysis       |2024      |N/A      |
+| Factor Annotation         | Gray et al.   | [Empirical legal analysis simplified: reducing complexity through automatic identification and evaluation of legally relevant factors](https://royalsocietypublishing.org/doi/abs/10.1098/rsta.2023.0155) |Philosophical Transactions of the Royal Society A       |2024      |N/A      |
+| Legal Support             | Maree et al.  | [Transforming legal text interactions: leveraging natural language processing and large language models for legal support in Palestinian cooperatives](https://link.springer.com/article/10.1007/s41870-023-01584-1) |International Journal of Information Technology       |2024      |N/A      |
+| Reasoning                | Deng et al.   | [Syllogistic reasoning for legal judgment analysis](https://aclanthology.org/2023.emnlp-main.864/)                                                 |Conference on Empirical Methods in Natural Language Processing       |2023      |[N/A]https://github.com/%20dengwentao99/SLJA)      |
 
-### 3.5: LLM-assisted Legal Judgment Prediction with Qualifiers
+### LLM-assisted Legal Judgment Prediction with Qualifiers
 
 | **Category** |      Name                   | **Paper**                                                    | **Venue** | **Year** | **Code**                                               |
 | -------- | --------------------- | ------------------------------------------------------------ | --------- | -------- | ------------------------------------------------------------ |
-| Prediction                | Strickson et al. | Legal judgement prediction for UK courts                                                          |       |      |      |
-| Representation Learning  | Ma et al.     | Judgment Prediction Based on Case Life Cycle                                                     |       |      |      |
-| Representation Learning  | Ma et al.     | Legal judgment prediction with multi-stage case representation learning in the real court setting |       |      |      |
-| Judgement Prediction      | Prasad et al. | IRIT_IRIS_C at SemEval-2023 Task 6: A Multi-level Encoder-based Architecture for Judgement Prediction of Legal Cases and their Explanation |       |      |      |
-| Element Extraction        | Lyu et al.    | Improving legal judgment prediction through reinforced criminal element extraction                |       |      |      |
-| Dependency Learning       | Huang et al.  | Dependency learning for legal judgment prediction with a unified text-to-text transformer          |       |      |      |
-| Multi-task Prediction     | Xu et al.     | Multi-task legal judgement prediction combining a subtask of the seriousness of charges          |       |      |      |
-| Event Extraction          | Feng et al.   | Legal judgment prediction via event extraction with constraints                                  |       |      |      |
-| Contrastive Learning      | Liu et al.    | Augmenting legal judgment prediction with contrastive case relations                             |       |      |      |
-| Contrastive Learning      | Zhang et al.  | Contrastive learning for legal judgment prediction                                                |       |      |      |
-| Knowledge Injection       | Gan et al.    | Judgment prediction via injecting legal knowledge into neural networks                            |       |      |      |
-| Benchmark                 | Chalkidis et al. | LexGLUE: A benchmark dataset for legal language understanding in English                          |       |      |      |
-| Benchmark                 | Niklaus et al. | Swiss-judgment-prediction: A multilingual legal judgment prediction benchmark                     |       |      |      |
-| Benchmark                 | Hwang et al.  | A multi-task benchmark for korean legal language understanding and judgement prediction           |       |      |      |
-| Statute Prediction        | Vats et al.   | Llms-the good, the bad or the indispensable?: A use case on legal statute prediction and legal judgment prediction on indian court cases |       |      |      |
-| Evaluation                | Shui et al.   | A comprehensive evaluation of large language models on legal judgment prediction                 |       |      |      |
-| Realistic Prediction      | Nigam et al.  | Rethinking legal judgement prediction in a realistic scenario in the era of large language models |       |      |      |
-| Reasoning                | Deng et al.   | Enabling discriminative reasoning in llms for legal judgment prediction                           |       |      |      |
-| Graph Learning            | Yangbin et al. | Legal Judgment Prediction with LLM and Graph Contrastive Learning Networks                         |       |      |      |
-| Rule-enhanced Prediction  | Zhang et al.  | RLJP: Legal Judgment Prediction via First-Order Logic Rule-enhanced with Large Language Models    |       |      |      |
-| Neuro-symbolic Framework  | Wei et al.    | An LLMs-based neuro-symbolic legal judgment prediction framework for civil cases                 |       |      |      |
-| Framework                 | Wang et al.   | LegalReasoner: A Multi-Stage Framework for Legal Judgment Prediction via Large Language Models and Knowledge Integration |       |      |      |
-| Survey                    | Cui et al.    | A survey on legal judgment prediction: Datasets, metrics, models and challenges                   |       |      |      |
-| Survey                    | Medvedeva et al. | Rethinking the field of automatic prediction of court decisions                                  |       |      |      |
+| Prediction                | Strickson et al. | [Legal judgement prediction for UK courts](https://dl.acm.org/doi/abs/10.1145/3388176.3388183)                                                          |ICISS       |2020      |N/A      |
+| Representation Learning  | Ma et al.     | [Judgment Prediction Based on Case Life Cycle](https://legalai2020.github.io/file/LuYaoMa.pdf)                                                     |International Workshop on Legal Intelligence & SIGIR       |2020      |N/A      |
+| Representation Learning  | Ma et al.     | [Legal judgment prediction with multi-stage case representation learning in the real court setting](https://dl.acm.org/doi/abs/10.1145/3404835.3462945) |SIGIR       |2021      |https://github.com/mly-nlp/LJP-MSJudge      |
+| Judgement Prediction      | Prasad et al. | [IRIT_IRIS_C at SemEval-2023 Task 6: A Multi-level Encoder-based Architecture for Judgement Prediction of Legal Cases and their Explanation](https://hal.science/hal-04729016/) |SemEval       |2023      |https://github.com/NishchalPrasad/SemEval-2023-Task-6-sub-task-C-      |
+| Element Extraction        | Lyu et al.    | [Improving legal judgment prediction through reinforced criminal element extraction](https://www.sciencedirect.com/science/article/pii/S0306457321002600)                |Information Processing & Management       |2022      |https://github.com/lvyougang/CEEN/      |
+| Dependency Learning       | Huang et al.  | [Dependency learning for legal judgment prediction with a unified text-to-text transformer](https://arxiv.org/pdf/2112.06370)          |arxiv       |2021      |N/A      |
+| Multi-task Prediction     | Xu et al.     | [Multi-task legal judgement prediction combining a subtask of the seriousness of charges](https://link.springer.com/chapter/10.1007/978-3-030-63031-7_30)          |CCL       |2020      |N/A      |
+| Event Extraction          | Feng et al.   | [Legal judgment prediction via event extraction with constraints](https://aclanthology.org/2022.acl-long.48/)                                  |Annual Meeting of the Association for Computational Linguistics       |2022      |https://github.com/WAPAY/EPM      |
+| Contrastive Learning      | Liu et al.    | [Augmenting legal judgment prediction with contrastive case relations](https://aclanthology.org/2022.coling-1.235/)                             |International Conference on Computational Linguistics       |2022      |https://github.com/dgliu/COLING22_CTM      |
+| Contrastive Learning      | Zhang et al.  | [Contrastive learning for legal judgment prediction](https://dl.acm.org/doi/full/10.1145/3580489)                                                |ACM Transactions on Information Systems       |2023      |N/A      |
+| Knowledge Injection       | Gan et al.    | [Judgment prediction via injecting legal knowledge into neural networks](https://ojs.aaai.org/index.php/AAAI/article/view/17522)                            |AAAI Conference on Artificial Intelligence       |2021      |https://github.com/Yyy11181/LLMs-based-Neuro-Symbolic-Framework-for-DWI-cases      |
+| Benchmark                 | Chalkidis et al. | [LexGLUE: A benchmark dataset for legal language understanding in English](https://arxiv.org/pdf/2110.00976)                          |arxiv       |2021      |https://github.com/coastalcph/lex-glue      |
+| Benchmark                 | Niklaus et al. | [Swiss-judgment-prediction: A multilingual legal judgment prediction benchmark](https://arxiv.org/pdf/2110.00806)                     |arxiv       |2021      |https://zenodo.org/records/5529712      |
+| Benchmark                 | Hwang et al.  | [A multi-task benchmark for korean legal language understanding and judgement prediction](https://proceedings.neurips.cc/paper_files/paper/2022/hash/d15abd14d5894eebd185b756541d420e-Abstract-Datasets_and_Benchmarks.html)           |Advances in Neural Information Processing Systems       |2022      |https://huggingface.co/datasets/lbox/lbox_open      |
+| Statute Prediction        | Vats et al.   | [Llms-the good, the bad or the indispensable?: A use case on legal statute prediction and legal judgment prediction on indian court cases](https://aclanthology.org/2023.findings-emnlp.831/) |EMNLP       |2023      |https://github.com/somsubhra04/LLM_Legal_Prompt_Generation      |
+| Evaluation                | Shui et al.   | [A comprehensive evaluation of large language models on legal judgment prediction](https://arxiv.org/pdf/2310.11761)                 |arxiv       |2023      |https://github.com/srhthu/LM-CompEval-Legal      |
+| Realistic Prediction      | Nigam et al.  | [Rethinking legal judgement prediction in a realistic scenario in the era of large language models](https://arxiv.org/pdf/2410.10542) |arxiv       |2024      |https://github.com/ShubhamKumarNigam/Realistic_LJP      |
+| Reasoning                | Deng et al.   | [Enabling discriminative reasoning in llms for legal judgment prediction](https://arxiv.org/pdf/2407.01964)                           |arxiv       |2024      |N/A      |
+| Graph Learning            | Yangbin et al. | [Legal Judgment Prediction with LLM and Graph Contrastive Learning Networks](https://dl.acm.org/doi/full/10.1145/3709026.3709068)                         |International Conference on Computer Science and Artificial Intelligence       |2024      |[Dataset Only1](https://huggingface.co/datasets/coastalcph/fairlex/viewer/ecthr), [Dataset Only2](https://huggingface.co/datasets/AUEB-NLP/ecthr_cases)      |
+| Rule-enhanced Prediction  | Zhang et al.  | [RLJP: Legal Judgment Prediction via First-Order Logic Rule-enhanced with Large Language Models](https://arxiv.org/pdf/2505.21281)    |arxiv       |2025      |https://anonymous.4open.science/r/RLJP-FDF1      |
+| Neuro-symbolic Framework  | Wei et al.    | [An LLMs-based neuro-symbolic legal judgment prediction framework for civil cases](https://link.springer.com/article/10.1007/s10506-025-09433-1)                 |AI & Law       |2025      |N/A      |
+| Framework                 | Wang et al.   | [LegalReasoner: A Multi-Stage Framework for Legal Judgment Prediction via Large Language Models and Knowledge Integration](https://ieeexplore.ieee.org/abstract/document/10750819) |IEEE Access       |2024      |[Model Only](https://huggingface.co/nsi319/legal-pegasus)      |
+| Survey                    | Cui et al.    | [A survey on legal judgment prediction: Datasets, metrics, models and challenges](https://ieeexplore.ieee.org/abstract/document/10255647)                   |IEEE Access       |2023      |N/A      |
+| Survey                    | Medvedeva et al. | [Rethinking the field of automatic prediction of court decisions ](https://link.springer.com/article/10.1007/s10506-021-09306-3)                                 |AI & Law       |2023      |N/A      |
 
 ## LLMs’ Integrations in Dispute Resolution Procedures
 
@@ -245,14 +245,6 @@ Competence obligations: Continuous learning imperatives
 ## Roadmap and Future Directions
 
 ![alt text](image-3.png)
-
-| Category                  | Name          | Paper                                                                                              | Venue | Year | Code |
-|---------------------------|---------------|---------------------------------------------------------------------------------------------------|-------|------|------|
-| Legal LLM                 | Cui et al.    | Chatlaw: Open-source legal large language model with integrated external knowledge bases         |       |      |      |
-| Multi-agent Framework     | Shi et al.    | LegalGPT: Legal Chain of Thought for the Legal Large Language Model Multi-agent Framework          |       |      |      |
-| Benchmark                 | Fei et al.    | Lawbench: Benchmarking legal knowledge of large language models                                    |       |      |      |
-| Benchmark                 | Guha et al.   | Legalbench: A collaboratively built benchmark for measuring legal reasoning in large language models |       |      |      |
-| Reasoning Enhancement    | Lu et al.     | 0x. yuan at semeval-2024 task 5: Enhancing legal argument reasoning with structured prompts        |       |      |      |
 
 Critical research frontiers:
 
