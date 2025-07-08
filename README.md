@@ -176,30 +176,19 @@ Toulmin model implementation for legal task decomposition:
 
 ## LLMs’ Integrations in Dispute Resolution Procedures
 
+Note: Only the paper never cited before this part will be shown below:
+
 ### Litigation Workflows
 
 | Category          | Name          | Paper                                                                                              | Venue | Year | Code |
 |-------------------|---------------|---------------------------------------------------------------------------------------------------|-------|------|------|
-| Reasoning Model   | Toulmin       | The uses of argument                                                                              |       |      |      |
-| Case Law          | Goebel et al. | Overview and Discussion of the Competition on Legal Information, Extraction/Entailment(COLIEE) 2023 |       |      |      |
-| Legal Ontologies  | Hart et al.   | The concept of law                                                                                |       |      |      |
-| MoE Architecture   | Cui et al.    | Chatlaw: A multi-agent collaborative legal assistant with knowledge graph enhanced mixture-of-experts large language model |       |      |      |
-| Information Retrieval | Nguyen et al. | Pushing the boundaries of legal information processing with integration of large language models   |       |      |      |
-| Litigation Support    | Siino et al.    | Exploring LLMs Applications in Law: A Literature Review on Current Legal NLP Approaches             |       |      |      |
-| MoE Architecture       | Cui et al.       | Chatlaw: Open-source legal large language model with integrated external knowledge bases         |       |      |      |
-| Information Retrieval  | Nguyen et al.    | Pushing the boundaries of legal information processing with integration of large language models   |       |      |      |
-| Precedent Retrieval    | Wiratunga et al. | CBR-RAG: case-based reasoning for retrieval augmented generation in LLMs for legal question answering |       |      |      |
-| Factor Annotation      | Gray et al.      | Empirical legal analysis simplified: reducing complexity through automatic identification and evaluation of legally relevant factors |       |      |      |
+| COLIEE Competition          | Goebel et al. | [Overview and Discussion of the Competition on Legal Information, Extraction/Entailment(COLIEE) 2023](https://link.springer.com/article/10.1007/s12626-023-00152-0) |The Review of Socionetwork Strategies       |2024      |N/A      |                                                                               |       |      |      |
+| Information Retrieval | Nguyen et al. | [Pushing the boundaries of legal information processing with integration of large language models](https://link.springer.com/chapter/10.1007/978-981-97-3076-6_12)   |JSAI       |2024      |N/A      |
+| Litigation Support    | Siino et al.    | [Exploring LLMs Applications in Law: A Literature Review on Current Legal NLP Approaches](https://ieeexplore.ieee.org/abstract/document/10850911)             |IEEE Access       |2025      |N/A      |
 | Legal Support          | Maree et al.    | Transforming legal text interactions: leveraging natural language processing and large language models for legal support in Palestinian cooperatives |       |      |      |
-| Graph-based Retrieval  | Tang et al.      | CaseGNN: Graph Neural Networks for Legal Case Retrieval with Text-Attributed Graphs                |       |      |      |
-| Reasoning              | Deng et al.      | Syllogistic reasoning for legal judgment analysis                                                 |       |      |      |
 | Summarization Evaluation | Elaraby et al.  | Adding Argumentation into Human Evaluation of Long Document Abstractive Summarization: A Case Study on Legal Opinions |       |      |      |
 | Hierarchical Classification | Prasad et al.   | Exploring Large Language Models and Hierarchical Frameworks for Classification of Large Unstructured Legal Documents |       |      |      |
-| Information Retrieval  | Nguyen et al.    | Pushing the boundaries of legal information processing with integration of large language models   |       |      |      |
-| Reasoning              | Deng et al.      | Syllogistic reasoning for legal judgment analysis                                                 |       |      |      |
 | Element Identification | Reji et al.      | Enhancing LLM Performance on Legal Textual Entailment with Few-Shot CoT-based RAG                 |       |      |      |
-| Litigation Support     | Siino et al.     | Exploring LLMs Applications in Law: A Literature Review on Current Legal NLP Approaches           |       |      |      |
-| Benchmark              | Fei et al.       | Lawbench: Benchmarking legal knowledge of large language models                                    |       |      |      |
 
 ### Alternative Dispute Resolution
 
