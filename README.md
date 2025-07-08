@@ -14,9 +14,9 @@ This repository contains materials for the first comprehensive review of Large L
   title={When Large Language Models Meet Law: Research Framework, Technological Evolution, and Ethical Challenges},
   author={Shao, Peizhang and Xu, Linrui and Wang, Jinxi and Zhou, Wei and Wu, Xingyu},
   journal={ACM Computing Surveys},
-  volume={37},
-  number={4},
-  pages={1--35},
+  volume={xx},
+  number={x},
+  pages={xx--xx},
   year={2025}
 }
 ```
@@ -177,16 +177,54 @@ Toulmin model implementation for legal task decomposition:
 
 ### Litigation Workflows
 
-| Role       | LLM Applications                   | Key Benefits                         |
-|------------|-------------------------------------|--------------------------------------|
-| **Judges** | • Case summarization  • Precedent retrieval | • 40% efficiency gain  • Cross-jurisdictional alignment |
-| **Lawyers**| • Contract analysis   • Argument construction | • Ambiguity detection  • Evidence correlation |
-| **Litigants**| • Claim articulation  • Knowledge access | • Plain-language explanations  • Rights protection |
+| Category          | Name          | Paper                                                                                              | Venue | Year | Code |
+|-------------------|---------------|---------------------------------------------------------------------------------------------------|-------|------|------|
+| Reasoning Model   | Toulmin       | The uses of argument                                                                              |       |      |      |
+| Case Law          | Goebel et al. | Overview and Discussion of the Competition on Legal Information, Extraction/Entailment(COLIEE) 2023 |       |      |      |
+| Legal Ontologies  | Hart et al.   | The concept of law                                                                                |       |      |      |
+| MoE Architecture   | Cui et al.    | Chatlaw: A multi-agent collaborative legal assistant with knowledge graph enhanced mixture-of-experts large language model |       |      |      |
+| Information Retrieval | Nguyen et al. | Pushing the boundaries of legal information processing with integration of large language models   |       |      |      |
+| Litigation Support    | Siino et al.    | Exploring LLMs Applications in Law: A Literature Review on Current Legal NLP Approaches             |       |      |      |
+| MoE Architecture       | Cui et al.       | Chatlaw: Open-source legal large language model with integrated external knowledge bases         |       |      |      |
+| Information Retrieval  | Nguyen et al.    | Pushing the boundaries of legal information processing with integration of large language models   |       |      |      |
+| Precedent Retrieval    | Wiratunga et al. | CBR-RAG: case-based reasoning for retrieval augmented generation in LLMs for legal question answering |       |      |      |
+| Factor Annotation      | Gray et al.      | Empirical legal analysis simplified: reducing complexity through automatic identification and evaluation of legally relevant factors |       |      |      |
+| Legal Support          | Maree et al.    | Transforming legal text interactions: leveraging natural language processing and large language models for legal support in Palestinian cooperatives |       |      |      |
+| Graph-based Retrieval  | Tang et al.      | CaseGNN: Graph Neural Networks for Legal Case Retrieval with Text-Attributed Graphs                |       |      |      |
+| Reasoning              | Deng et al.      | Syllogistic reasoning for legal judgment analysis                                                 |       |      |      |
+| Summarization Evaluation | Elaraby et al.  | Adding Argumentation into Human Evaluation of Long Document Abstractive Summarization: A Case Study on Legal Opinions |       |      |      |
+| Hierarchical Classification | Prasad et al.   | Exploring Large Language Models and Hierarchical Frameworks for Classification of Large Unstructured Legal Documents |       |      |      |
+| Information Retrieval  | Nguyen et al.    | Pushing the boundaries of legal information processing with integration of large language models   |       |      |      |
+| Reasoning              | Deng et al.      | Syllogistic reasoning for legal judgment analysis                                                 |       |      |      |
+| Element Identification | Reji et al.      | Enhancing LLM Performance on Legal Textual Entailment with Few-Shot CoT-based RAG                 |       |      |      |
+| Litigation Support     | Siino et al.     | Exploring LLMs Applications in Law: A Literature Review on Current Legal NLP Approaches           |       |      |      |
+| Benchmark              | Fei et al.       | Lawbench: Benchmarking legal knowledge of large language models                                    |       |      |      |
 
 ### Alternative Dispute Resolution
 
-​​Procedural Framework:​
-![alt text](image-5.png)
+| Category               | Name            | Paper                                                                                              | Venue | Year | Code |
+|------------------------|-----------------|---------------------------------------------------------------------------------------------------|-------|------|------|
+| Contract Review        | Hendrycks et al. | CUAD: an expert-annotated NLP dataset for legal contract review                                  |       |      |      |
+| Contract System        | Zeng et al.      | Contract-Mind: Trust-calibration interaction design for AI contract review tools                  |       |      |      |
+| NLP for Contracts      | Graham et al.    | Natural language processing for legal document review: categorising deontic modalities in contracts |       |      |      |
+| Financial Analysis     | Bedekar et al.   | AI in Mergers and Acquisitions: Analyzing the Effectiveness of Artificial Intelligence in Due Diligence |       |      |      |
+| Reasoning              | Deng et al.      | Syllogistic reasoning for legal judgment analysis                                                 |       |      |      |
+| Legal LLM              | Cui et al.       | Chatlaw: Open-source legal large language model with integrated external knowledge bases         |       |      |      |
+| Reasoning Framework    | Yue et al.       | Disc-lawllm: Fine-tuning large language models for intelligent legal services                     |       |      |      |
+| Benchmark              | Fei et al.       | Lawbench: Benchmarking legal knowledge of large language models                                    |       |      |      |
+| Domain-specific LLM    | Fei et al.       | Internlm-law: An open source chinese legal large language model                                   |       |      |      |
+| Legal QA System        | Huang et al.     | Lawyer llama technical report                                                                     |       |      |      |
+| Contract Automation    | Mik              | Much ado about artificial intelligence or: the automation of contract formation                 |       |      |      |
+| eDiscovery             | Pai et al.       | Exploration of open large language models for ediscovery                                         |       |      |      |
+| Graph Learning         | Lahiri et al.    | Learning from Litigation: Graphs and LLMs for Retrieval and Reasoning in eDiscovery              |       |      |      |
+| Blockchain             | Nagineni         | THE RISE OF AI IN EDISCOVERY: HOW MACHINE LEARNING IS REVOLUTIONIZING LEGAL DATA PROCESSING      |       |      |      |
+| Mediation Agreement    | Goswami et al.   | Incorporating Domain Knowledge in Multi-objective Optimization Framework for Automating Indian Legal Case Summarization |       |      |      |
+| Text Analytics         | Ghosh et al.     | Human Centered AI for Indian Legal Text Analytics                                                |       |      |      |
+| Element Extraction     | Lyu et al.       | Improving legal judgment prediction through reinforced criminal element extraction                |       |      |      |
+| Long-text Processor    | Xiao et al.      | Lawformer: A pre-trained language model for chinese legal long documents                          |       |      |      |
+| Litigation Support     | Siino et al.     | Exploring LLMs Applications in Law: A Literature Review on Current Legal NLP Approaches           |       |      |      |
+| Summarization          | Goswami et al.   | Incorporating Domain Knowledge in Multi-objective Optimization Framework for Automating Indian Legal Case Summarization |       |      |      |
+| Text Analytics         | Ghosh et al.     | Human Centered AI for Indian Legal Text Analytics                                                |       |      |      |
 
 ## The Collaboration of Technological Ethics and Legal Ethics
 
