@@ -51,12 +51,13 @@ From symbolic systems to transformer-based LLMs in legal NLP:
 
 Evolutionary Stages:​​
 
-|​​Period​​  |Key |Developments​​  |Representative |Systems|​​
-|Foundations (2017)  |Legal |embeddings  |Law2Vec|
-|Transition (2018-19)  |Pretraining |paradigms  |Legal-BERT|
-|Expansion (2020-21)  |Transformer |specialization  |COLIEE competition frameworks|
-|Breakthrough (2022)  |Holistic |LLM applications | Lawformer|
-|Paradigm shift (2023-24)  |Lawformer| ChatLaw|
+| Period             | Key                     | Developments                             | Representative Systems                   |
+|--------------------|-------------------------|------------------------------------------|------------------------------------------|
+| Foundations (2017) | Legal embeddings        | Domain-specific neural networks          | Law2Vec (Chalkidis et al.)               |
+| Transition (2018-19)| Pretraining paradigms   | BERT integration for complex tasks       | Legal-BERT (Chalkidis et al.)            |
+| Expansion (2020-21) | Transformer specialization | Domain-adapted NLP pipelines             | COLIEE frameworks (Nguyen et al.)        |
+| Breakthrough (2022)| Holistic applications    | Long-document processing & jurisdiction adaptation | Lawformer (Xiao et al.)                  |
+| Paradigm shift (2023-24)| Domain-optimized scaling | Mixture-of-experts & knowledge integration | ChatLaw (Cui et al.), LLM-GNN fusion (Wang et al.) |
 
 ## LLM-enhanced Legal Reasoning
 
@@ -71,14 +72,14 @@ Toulmin model implementation for legal task decomposition:
 | Word Embedding         | Devlin et al. | [BERT: Pre-training of deep bidirectional transformers for language understanding](https://aclanthology.org/N19-1423.pdf)                 |NAACL      |2019      | https://github.com/google-research/bert     |
 | Word Embedding         | Mikolov       | [Efficient estimation of word representations in vector space](https://www.khoury.northeastern.edu/home/vip/teach/DMcourse/4_TF_supervised/notes_slides/1301.3781.pdf)                                      |arxiv       |2013      |http://www.fit.vutbr.cz/~imikolov/rnnlm/word-test.v1.txt      |
 | Word Embedding         | Pennington et al. | [Glove: Global vectors for word representation](https://aclanthology.org/D14-1162.pdf)                                                     |EMNLP       |2014      |http://nlp.stanford.edu/projects/glove/      |
-| Sentence Embedding     | Hill et al.   | Learning to understand phrases by embedding the dictionary                                        |       |      |      |
-| Sentence Embedding     | Kiros et al.  | Skip-thought vectors                                                                              |       |      |      |
-| Coherence Modeling     | Logeswaran et al. | Sentence ordering and coherence modeling using recurrent neural networks                          |       |      |      |
-| Summarization          | Benedetto et al. | Leveraging large language models for abstractive summarization of Italian legal news              |       |      |      |
-| Summarization          | Deroy et al.  | Applicability of large language models and generative models for legal case judgement summarization |       |      |      |
-| Summarization          | Jain et al.   | Summarization of Lengthy Legal Documents via Abstractive Dataset Building: An Extract-then-Assign Approach |       |      |      |
-| Summarization          | Liu et al.    | Low-resource court judgment summarization for common law systems                                  |       |      |      |
-| Summarization          | Nguyen et al. | Robust deep reinforcement learning for extractive legal summarization                             |       |      |      |
+| Sentence Embedding     | Hill et al.   | [Learning to understand phrases by embedding the dictionary](https://doi.org/10.1162/tacl_a_00080)                                        |Transactions of the Association for Computational Linguistics       |2016      |N/A      |
+| Sentence Embedding     | Kiros et al.  | [Skip-thought vectors](https://proceedings.neurips.cc/paper/2015/hash/f442d33fa06832082290ad8544a8da27-Abstract.html)                                                                              |2015       |Advances in neural information processing systems      |https://github.com/ryankiros/skip-thoughts      |
+| Coherence Modeling     | Logeswaran et al. | [Sentence ordering and coherence modeling using recurrent neural networks](https://ojs.aaai.org/index.php/AAAI/article/view/11997)                          |AAAI       |2018      |N/A      |
+| Summarization          | Benedetto et al. | [Leveraging large language models for abstractive summarization of Italian legal news](https://link.springer.com/article/10.1007/s10506-025-09431-3)              |AI & Law       |2025      |N/A      |
+| Summarization          | Deroy et al.  | [Applicability of large language models and generative models for legal case judgement summarization](https://link.springer.com/article/10.1007/s10506-024-09411-z) |AI & Law       |2024      |N/A      |
+| Summarization          | Jain et al.   | [Summarization of Lengthy Legal Documents via Abstractive Dataset Building: An Extract-then-Assign Approach](https://www.sciencedirect.com/science/article/pii/S0957417423020730) |Expert Systems with Applications       |2024      |N/A      |
+| Summarization          | Liu et al.    | [Low-resource court judgment summarization for common law systems](https://www.sciencedirect.com/science/article/pii/S0306457324001511)                                  |Information Processing & Management       |2024      |N/A      |
+| Summarization          | Nguyen et al. | [Robust deep reinforcement learning for extractive legal summarization](https://link.springer.com/chapter/10.1007/978-3-030-92310-5_69)                             |ICONIP       |2021      |N/A      |
 | Summarization          | Pont et al.   | Legal Summarisation through LLMs: The PRODIGIT Project                                            |       |      |      |
 | Summarization Evaluation | Elaraby et al. | Adding Argumentation into Human Evaluation of Long Document Abstractive Summarization: A Case Study on Legal Opinions |       |      |      |
 | Summarization          | Mao et al.    | Comparative Analysis of LLM-Generated Event Timeline Summarization for Legal Investigations      |       |      |      |
