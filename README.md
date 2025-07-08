@@ -68,9 +68,9 @@ Toulmin model implementation for legal task decomposition:
 
 | **Category** |      Name                   | **Paper**                                                    | **Venue** | **Year** | **Code**                                               |
 | -------- | --------------------- | ------------------------------------------------------------ | --------- | -------- | ------------------------------------------------------------ |
-| Word Embedding         | Devlin et al. | BERT: Pre-training of deep bidirectional transformers for language understanding(#https://aclanthology.org/N19-1423.pdf)                 | NAACL      |2019      | https://github.com/google-research/bert     |
-| Word Embedding         | Mikolov       | Efficient estimation of word representations in vector space                                      |       |      |      |
-| Word Embedding         | Pennington et al. | Glove: Global vectors for word representation                                                     |       |      |      |
+| Word Embedding         | Devlin et al. | [BERT: Pre-training of deep bidirectional transformers for language understanding](https://aclanthology.org/N19-1423.pdf)                 |NAACL      |2019      | https://github.com/google-research/bert     |
+| Word Embedding         | Mikolov       | [Efficient estimation of word representations in vector space](https://www.khoury.northeastern.edu/home/vip/teach/DMcourse/4_TF_supervised/notes_slides/1301.3781.pdf)                                      |arxiv       |2013      |http://www.fit.vutbr.cz/~imikolov/rnnlm/word-test.v1.txt      |
+| Word Embedding         | Pennington et al. | [Glove: Global vectors for word representation](https://aclanthology.org/D14-1162.pdf)                                                     |EMNLP       |2014      |http://nlp.stanford.edu/projects/glove/      |
 | Sentence Embedding     | Hill et al.   | Learning to understand phrases by embedding the dictionary                                        |       |      |      |
 | Sentence Embedding     | Kiros et al.  | Skip-thought vectors                                                                              |       |      |      |
 | Coherence Modeling     | Logeswaran et al. | Sentence ordering and coherence modeling using recurrent neural networks                          |       |      |      |
