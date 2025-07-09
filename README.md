@@ -16,7 +16,7 @@ This repository contains materials for the first comprehensive review of Large L
   journal={arxiv},
   volume={1},
   number={1},
-  pages={1--33},
+  pages={1--34},
   year={2025}
 }
 ```
