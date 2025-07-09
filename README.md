@@ -53,11 +53,11 @@ Evolutionary Stages:​​
 
 | Period             | Key                     | Developments                             | Representative Systems                   |
 |--------------------|-------------------------|------------------------------------------|------------------------------------------|
-| Foundations (2017) | Legal embeddings        | Domain-specific neural networks          | Law2Vec (Chalkidis et al.)               |
-| Transition (2018-19)| Pretraining paradigms   | BERT integration for complex tasks       | Legal-BERT (Chalkidis et al.)            |
-| Expansion (2020-21) | Transformer specialization | Domain-adapted NLP pipelines             | COLIEE frameworks (Nguyen et al.)        |
-| Breakthrough (2022)| Holistic applications    | Long-document processing & jurisdiction adaptation | Lawformer (Xiao et al.)                  |
-| Paradigm shift (2023-24)| Domain-optimized scaling | Mixture-of-experts & knowledge integration | ChatLaw (Cui et al.), LLM-GNN fusion (Wang et al.) |
+| Foundations (2017) | Legal embeddings        | Domain-specific neural networks          | [Law2Vec (Chalkidis et al.)](https://link.springer.com/article/10.1007/s10506-018-9238-9)               |
+| Transition (2018-19)| Pretraining paradigms   | BERT integration for complex tasks       | [Legal-BERT (Chalkidis et al.)](https://arxiv.org/pdf/2010.02559)            |
+| Expansion (2020-21) | Transformer specialization | Domain-adapted NLP pipelines             | [Transformer frameworks (Nguyen et al.)](https://link.springer.com/article/10.1007/s12626-022-00102-2)        |
+| Breakthrough (2022)| Holistic applications    | Long-document processing & jurisdiction adaptation | [Lawformer (Xiao et al.)](https://www.sciencedirect.com/science/article/pii/S2666651021000176)                  |
+| Paradigm shift (2023-24)| Domain-optimized scaling | Mixture-of-experts & knowledge integration | [ChatLaw (Cui et al.)](https://arxiv.org/pdf/2306.16092), [LLM-GNN fusion (Wang et al.)](https://pubs.rsc.org/en/content/articlehtml/2024/dd/d4dd00199k) |
 
 ## LLM-enhanced Legal Reasoning
 
@@ -191,49 +191,16 @@ Note: Only the paper never cited before this part will be shown below:
 
 | Category               | Name            | Paper                                                                                              | Venue | Year | Code |
 |------------------------|-----------------|---------------------------------------------------------------------------------------------------|-------|------|------|
-| Contract Review        | Hendrycks et al. | CUAD: an expert-annotated NLP dataset for legal contract review                                  |       |      |      |
-| Contract System        | Zeng et al.      | Contract-Mind: Trust-calibration interaction design for AI contract review tools                  |       |      |      |
-| NLP for Contracts      | Graham et al.    | Natural language processing for legal document review: categorising deontic modalities in contracts |       |      |      |
-| Financial Analysis     | Bedekar et al.   | AI in Mergers and Acquisitions: Analyzing the Effectiveness of Artificial Intelligence in Due Diligence |       |      |      |
-| Contract Automation    | Mik              | Much ado about artificial intelligence or: the automation of contract formation                 |       |      |      |
-| eDiscovery             | Pai et al.       | Exploration of open large language models for ediscovery                                         |       |      |      |
-| Blockchain             | Nagineni         | THE RISE OF AI IN EDISCOVERY: HOW MACHINE LEARNING IS REVOLUTIONIZING LEGAL DATA PROCESSING      |       |      |      |
-| Mediation Agreement    | Goswami et al.   | Incorporating Domain Knowledge in Multi-objective Optimization Framework for Automating Indian Legal Case Summarization |       |      |      |
-| Text Analytics         | Ghosh et al.     | Human Centered AI for Indian Legal Text Analytics                                                |       |      |      |
+| Contract Review        | Hendrycks et al. | [CUAD: an expert-annotated NLP dataset for legal contract review](https://arxiv.org/abs/2103.06268)                                  |arxiv       |2021      |https://github.com/TheAtticusProject/cuad/      |
+| Contract System        | Zeng et al.      | [Contract-Mind: Trust-calibration interaction design for AI contract review tools](https://www.sciencedirect.com/science/article/pii/S1071581924001940)                  |International Journal of Human-Computer Studies       |2025      |N/A      |
+| NLP for Contracts      | Graham et al.    | [Natural language processing for legal document review: categorising deontic modalities in contracts](https://link.springer.com/article/10.1007/s10506-023-09379-2) |AI & Law       |2023      |N/A      |
+| Financial Analysis     | Bedekar et al.   | [AI in Mergers and Acquisitions: Analyzing the Effectiveness of Artificial Intelligence in Due Diligence](https://ieeexplore.ieee.org/abstract/document/10616599) |ICKECS       |2024      |N/A      |
+| Contract Automation    | Mik              | [Much ado about artificial intelligence or: the automation of contract formation](https://academic.oup.com/ijlit/article-abstract/30/4/484/7092982)                 | International Journal of Law and Information Technology       |2022      |N/A      |
+| eDiscovery             | Pai et al.       | [Exploration of open large language models for ediscovery](https://aclanthology.org/2023.nllp-1.17/)                                         |Natural Legal Language Processing Workshop       |2023      |N/A      |
+| Blockchain             | Stjepanovic et al.         |  [Leveraging artificial intelligence in ediscovery: enhancing efficiency, accuracy, and ethical considerations](https://heinonline.org/HOL/LandingPage?handle=hein.journals/rgllr2024&div=18&id=&page=)      |Regional L. Rev.       |2024      |N/A      |
+| Mediation Agreement    | Goswami et al.   | [Incorporating Domain Knowledge in Multi-objective Optimization Framework for Automating Indian Legal Case Summarization](https://link.springer.com/chapter/10.1007/978-3-031-78495-8_17) |International Conference on Pattern Recognition       |2024      |N/A      |
+| Text Analytics         | Ghosh et al.     | [Human Centered AI for Indian Legal Text Analytics](https://arxiv.org/pdf/2403.10944)                                                |arxiv       |2024      |N/A      |
 
 ## The Collaboration of Technological Ethics and Legal Ethics
 
 ![alt text](image-4.png)
-
-Dual-Perspective Analysis:​​
-
-​​Technological Ethics:​​
-Hallucination mitigation (38% reduction in ChatLaw)
-Bias quantification across 12 jurisdictions
-Explainability via syllogistic prompting
-​​Professional Ethics:​​
-Confidentiality protocols: Input redaction standards
-Accountability frameworks: Output verification requirements
-Competence obligations: Continuous learning imperatives
-
-## Roadmap and Future Directions
-
-![alt text](image-3.png)
-
-Critical research frontiers:
-
-​​Multimodal Integration:​​ Text + Knowledge graphs + Evidence
-​​Low-Resource Adaptation:​​ Few-shot tuning for minority jurisdictions
-​​Dynamic Rebuttal:​​ Real-time counterargument handling
-​​Evaluation Systems:​​ Cross-jurisdictional benchmarks (LawBench)
-​​Generative Pretraining:​​ Legal-specific foundation models
-
-## Conclusion
-
-Transformative contributions establishing foundations for legal AI:
-
-- First dual-taxonomy framework integrating Toulmin argumentation with professional roles
-- Systematic review of technical evolution from symbolic systems to transformer LLMs
-- Scenario-adaptive deployment models for litigation and ADR workflows
-- Ethical co-regulation protocols balancing innovation with professional responsibility
-- Roadmap addressing critical frontiers in low-resource systems and multimodal integration
