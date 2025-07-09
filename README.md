@@ -14,9 +14,9 @@ This repository contains materials for the first comprehensive review of Large L
   title={When Large Language Models Meet Law: Research Framework, Technological Evolution, and Ethical Challenges},
   author={Shao, Peizhang and Xu, Linrui and Wang, Jinxi and Zhou, Wei and Wu, Xingyu},
   journal={arxiv},
-  volume={xx},
-  number={x},
-  pages={xx--xx},
+  volume={1},
+  number={1},
+  pages={1--33},
   year={2025}
 }
 ```
