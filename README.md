@@ -45,7 +45,7 @@ Core Components:​​
 
 From symbolic systems to transformer-based LLMs in legal NLP:
 
-![alt text](image-1.png)
+![alt text](Fig_History.png)
 
 Evolutionary Stages:​​
 
