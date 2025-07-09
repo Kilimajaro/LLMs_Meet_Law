@@ -28,8 +28,6 @@ This repository contains materials for the first comprehensive review of Large L
 - [LLM-enhanced Legal Reasoning](#llm-enhanced-legal-reasoning)
 - [LLMs’ Integrations in Dispute Resolution Procedures](#llms-integrations-in-dispute-resolution-procedures)
 - [The Collaboration of Technological Ethics and Legal Ethics](#the-collaboration-of-technological-ethics-and-legal-ethics)
-- [Roadmap and Future Directions](#roadmap-and-future-directions)
-- [Conclusion](#conclusion)
 
 ## Introduction
 
