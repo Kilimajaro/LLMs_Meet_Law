@@ -49,7 +49,7 @@ From symbolic systems to transformer-based LLMs in legal NLP:
 
 Evolutionary Stages:​​
 
-| Period             | Key                     | Developments                             | Representative Systems                   |
+| Period             | Key                     | Developments                             | Representative Work                   |
 |--------------------|-------------------------|------------------------------------------|------------------------------------------|
 | Foundations (2017) | Legal embeddings        | Domain-specific neural networks          | [Law2Vec (Chalkidis et al.)](https://link.springer.com/article/10.1007/s10506-018-9238-9)               |
 | Transition (2018-19)| Pretraining paradigms   | BERT integration for complex tasks       | [Legal-BERT (Chalkidis et al.)](https://arxiv.org/pdf/2010.02559)            |
