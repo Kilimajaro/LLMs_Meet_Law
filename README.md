@@ -1,4 +1,4 @@
-# When Large Language Models Meet Law: Technological Evolution and Ethical Challenge
+# When Large Language Models Meet Law: Dual-Lens Taxonomy, Technical Advances, and Ethical Governance
 
 ## Overview
 
@@ -11,7 +11,7 @@ This repository contains materials for the first comprehensive review of Large L
 
 ```bibtex
 @article{shao2025large,
-  title={When Large Language Models Meet Law: Technological Evolution and Ethical Challenge},
+  title={When Large Language Models Meet Law: Dual-Lens Taxonomy, Technical Advances, and Ethical Governance},
   author={Shao, Peizhang and Xu, Linrui and Wang, Jinxi and Zhou, Wei and Wu, Xingyu},
   journal={arxiv},
   volume={1},
