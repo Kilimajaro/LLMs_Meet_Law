@@ -1,4 +1,4 @@
-# When Large Language Models Meet Law: Research Framework, Technological Evolution, and Ethical Challenges
+# When Large Language Models Meet Law: Technological Evolution and Ethical Challenge
 
 ## Overview
 
@@ -11,7 +11,7 @@ This repository contains materials for the first comprehensive review of Large L
 
 ```bibtex
 @article{shao2025large,
-  title={When Large Language Models Meet Law: Research Framework, Technological Evolution, and Ethical Challenges},
+  title={When Large Language Models Meet Law: Technological Evolution and Ethical Challenge},
   author={Shao, Peizhang and Xu, Linrui and Wang, Jinxi and Zhou, Wei and Wu, Xingyu},
   journal={arxiv},
   volume={1},
