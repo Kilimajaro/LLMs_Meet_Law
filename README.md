@@ -174,7 +174,7 @@ Toulmin model implementation for legal task decomposition:
 
 ## LLMs’ Integrations in Dispute Resolution Procedures
 
-Note: Only the paper never cited before this part will be shown below:
+Note: Only the paper never cited before this part are shown below:
 
 ### Litigation Workflows
 
