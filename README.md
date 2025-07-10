@@ -51,11 +51,11 @@ Evolutionary Stages:​​
 
 | Period             | Key                     | Developments                             | Representative Work                   |
 |--------------------|-------------------------|------------------------------------------|------------------------------------------|
-| Foundations (2017) | Legal embeddings        | Domain-specific neural networks          | [Law2Vec (Chalkidis et al.)](https://link.springer.com/article/10.1007/s10506-018-9238-9)               |
-| Transition (2018-19)| Pretraining paradigms   | BERT integration for complex tasks       | [Legal-BERT (Chalkidis et al.)](https://arxiv.org/pdf/2010.02559)            |
-| Expansion (2020-21) | Transformer specialization | Domain-adapted NLP pipelines             | [Transformer frameworks (Nguyen et al.)](https://link.springer.com/article/10.1007/s12626-022-00102-2)        |
-| Breakthrough (2022)| Holistic applications    | Long-document processing & jurisdiction adaptation | [Lawformer (Xiao et al.)](https://www.sciencedirect.com/science/article/pii/S2666651021000176)                  |
-| Paradigm shift (2023-24)| Domain-optimized scaling | Mixture-of-experts & knowledge integration | [ChatLaw (Cui et al.)](https://arxiv.org/pdf/2306.16092), [LLM-GNN fusion (Wang et al.)](https://pubs.rsc.org/en/content/articlehtml/2024/dd/d4dd00199k) |
+| Foundations (2017-2019) | Legal embeddings        | Domain-specific neural networks          | [Law2Vec (Chalkidis et al.)](https://link.springer.com/article/10.1007/s10506-018-9238-9),                |
+| Transition (2019-2021)| Pretraining paradigms   | BERT integration for complex tasks       | [Legal-BERT (Chalkidis et al.)](https://arxiv.org/pdf/2010.02559)            |
+| Expansion (2021-2022) | Transformer specialization | Domain-adapted NLP pipelines             | [Transformer frameworks (Nguyen et al.)](https://link.springer.com/article/10.1007/s12626-022-00102-2)        |
+| Breakthrough (2022-2023)| Holistic applications    | Long-document processing & jurisdiction adaptation | [Lawformer (Xiao et al.)](https://www.sciencedirect.com/science/article/pii/S2666651021000176)                  |
+| Paradigm shift (2023-2025)| Domain-optimized scaling | Mixture-of-experts & knowledge integration | [LLM-GNN fusion (Wang et al.)](https://pubs.rsc.org/en/content/articlehtml/2024/dd/d4dd00199k) |
 
 ## LLM-enhanced Legal Reasoning
 
