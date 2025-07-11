@@ -10,7 +10,7 @@ This repository contains materials for the first comprehensive review of Large L
 - Future research directions for next-generation legal AI systems
 
 ```bibtex
-@misc{shao2025large,
+@article{shao2025large,
       title={When Large Language Models Meet Law: Dual-Lens Taxonomy, Technical Advances, and Ethical Governance}, 
       author={Peizhang Shao and Linrui Xu and Jinxi Wang and Wei Zhou and Xingyu Wu},
       year={2025},
